@@ -1,0 +1,41 @@
+{
+  "name": "wordpresstest",
+  "version": "1.0.0",
+  "description": "=== WordPress Test === Contributors:  Tested up to: 6.4 Requires at least: 6.4 Requires PHP: 7.4 Version: 100.0 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html Copyright:",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build && gulp",
+    "watch-css": "gulp watch",
+    "watch-js": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@wordpress/scripts": "^30.8.1",
+    "css-loader": "^7.1.2",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^6.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.83.1",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^14.10.1",
+    "@wordpress/blocks": "^14.4.1",
+    "@wordpress/element": "^6.15.1"
+  }
+}

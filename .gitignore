@@ -1,0 +1,3 @@
+wp-content/**/build/
+wp-content/themes/your-theme-name/dist/
+wp-content/**/node_modules/
