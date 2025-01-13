@@ -1,0 +1,55 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/herostatic/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-hero {
+  position: relative;
+  z-index: 2;
+  min-height: 800px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wp-block-hero * {
+  position: relative;
+  z-index: 1;
+}
+.wp-block-hero:after {
+  content: "";
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  bottom: 0;
+  left: 0;
+  background: url("data:image/svg+xml,%3Csvg width=%27125%27 height=%27123%27 viewBox=%270 0 125 123%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Ccircle cx=%275.5%27 cy=%27119.5%27 r=%27116.5%27 stroke=%27white%27 stroke-opacity=%270.1%27 stroke-width=%276%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-dasharray=%2710 10%27/%3E%3Ccircle cx=%275.49989%27 cy=%27119.5%27 r=%2768.8099%27 stroke=%27white%27 stroke-opacity=%270.1%27 stroke-width=%276%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-dasharray=%2710 10%27/%3E%3Ccircle cx=%275.1593%27 cy=%27119.841%27 r=%2792.3143%27 stroke=%27white%27 stroke-opacity=%270.1%27 stroke-width=%276%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wp-block-hero.has-background-image:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45%;
+  height: 100%;
+  background: var(--hero-bg);
+  background-size: cover;
+  background-position: 35%;
+  background-repeat: no-repeat;
+}
+.wp-block-hero .content-wrap {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.wp-block-hero .content-wrap > * {
+  max-width: 55%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

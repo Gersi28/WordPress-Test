@@ -1,0 +1,126 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/benefits-grid/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.benefits-block {
+  max-width: 100%;
+  width: 100%;
+}
+.benefits-block #taxonomy-filter {
+  border: 2px solid var(--wp--preset--color--primary);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  gap: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 4.5rem;
+}
+.benefits-block #taxonomy-filter button {
+  border: none;
+  width: 149px;
+  height: 40px;
+  border-radius: 50px;
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: var(--wp--preset--color--black);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.benefits-block #taxonomy-filter button.active {
+  background: #EE1251;
+  color: var(--wp--preset--color--white);
+}
+.benefits-block #posts-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 4.5rem;
+}
+.benefits-block #posts-container .benefit-item {
+  background: linear-gradient(160.89deg, #EE1251 0%, #6729C1 68.46%, #1D35FD 117%);
+  padding: 2.5rem 1rem;
+  border-radius: 10px;
+  position: relative;
+}
+.benefits-block #posts-container .benefit-item:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  background: var(--wp--preset--color--white);
+  border-radius: 7px;
+  z-index: 2;
+  transition: 0.3s all;
+}
+.benefits-block #posts-container .benefit-item:hover:before {
+  opacity: 0;
+}
+.benefits-block #posts-container .benefit-item:hover img.color-icon {
+  opacity: 0;
+}
+.benefits-block #posts-container .benefit-item:hover p {
+  color: var(--wp--preset--color--white);
+}
+.benefits-block #posts-container .benefit-item img {
+  position: relative;
+  z-index: 3;
+}
+.benefits-block #posts-container .benefit-item img.color-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
+  transition: 0.3s all;
+}
+.benefits-block #posts-container .benefit-item p {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  z-index: 3;
+  color: var(--wp--preset--color--black);
+  margin-top: 1.75rem;
+  margin-bottom: 0;
+  transition: 0.3s all;
+}
+.benefits-block #load-more {
+  border: none;
+  height: 60px;
+  padding: 0 70px;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background: #EE1251;
+  color: var(--wp--preset--color--white);
+  margin: auto;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.benefits-block #load-more:hover {
+  background: rgb(241.4133858268, 65.5866141732, 115.937007874);
+}
+
+/*# sourceMappingURL=style-index.css.map*/
